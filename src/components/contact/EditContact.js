@@ -1,11 +1,12 @@
 export default function EditContact(props) {
   let { contact } = props;
   return (
-    <div>
+    <div className="edit-contact">
       <h1>Editar contacto</h1>
       <label>
         {props.contact.name}:{props.contact.phone}
       </label>
+      <hr />
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -35,7 +36,6 @@ export default function EditContact(props) {
 
 const onSubmit = (data) => {
   let { name, phone, contactSearch, props } = data;
-  console.log("contactSearch", name, phone, contactSearch, props);
   let contacts = props.contacts;
   let index = contacts.findIndex(
     (c) => c.name === contactSearch.name || c.phone === contactSearch.phone

@@ -15,8 +15,8 @@ export const Phonebook = () => {
   ]);
 
   return (
-    <div>
-      <h1>Agenda</h1>
+    <div className="phonebook">
+      <h1 className="header">Agenda</h1>
       <AddContact contacts={contacts} setContacts={setContacts} />
       <ListContact contacts={contacts} setContact={setContact} />
       <SearchContact contacts={contacts} />

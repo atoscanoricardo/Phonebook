@@ -9,7 +9,7 @@ export default function SearchContact(props) {
   ));
 
   return (
-    <div>
+    <div className="search-contact">
       <h1>Buscar contacto</h1>
       <form
         onSubmit={(e) => {

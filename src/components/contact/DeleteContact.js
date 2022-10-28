@@ -1,6 +1,6 @@
 export default function DeleteContact(props) {
   return (
-    <div>
+    <div className="delete-contact">
       <h1>Eliminar contacto</h1>
       <form
         onSubmit={(e) => {

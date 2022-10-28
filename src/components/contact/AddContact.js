@@ -1,6 +1,6 @@
 export default function AddContact(props) {
   return (
-    <div>
+    <div className="add-contact">
       <h1>Agregar contacto</h1>
       <form
         onSubmit={(e) => {
@@ -20,10 +20,12 @@ export default function AddContact(props) {
           Nombre del contacto:
           <input type="text" name="name" />
         </label>
+        <br />
         <label>
           N&uacute;mero del contacto:
           <input type="text" name="phone" />
         </label>
+        <br />
         <input type="submit" name="save_contact" value="Guardar contacto" />
       </form>
     </div>

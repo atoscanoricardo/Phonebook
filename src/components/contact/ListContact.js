@@ -6,7 +6,7 @@ export default function ListarContact(props) {
   ));
 
   return (
-    <div>
+    <div className="list-contact">
       <h1>Listar contacto</h1>
       <ul>
         <ul>{listItems}</ul>
