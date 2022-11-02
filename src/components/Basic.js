@@ -10,6 +10,24 @@ export const Basic = () => {
         <h1>T&iacute;tulo</h1>
         <ul>
           <li>
+            <a href="/addcontact">Adicionar contacto</a>
+          </li>
+          <li>
+            <a href="/editcontact">Editar contacto</a>
+          </li>
+          <li>
+            <a href="/deletecontact">Eliminar contacto</a>
+          </li>
+          <li>
+            <a href="/listcontact">Listar contactos</a>
+          </li>
+          <li>
+            <a href="/searchcontact">Buscar contacto</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
             <a href="http://google.com">Google</a>
           </li>
         </ul>

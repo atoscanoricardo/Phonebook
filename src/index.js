@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./css/index.css";
-import { Phonebook } from "./layouts/Phonebook";
+import Phonebook from "./layouts/Phonebook";
 import { Basic } from "./components/Basic";
 
 import reportWebVitals from "./reportWebVitals";
